@@ -1,0 +1,164 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.btn {
+    background-color: rgb(65, 65, 237);
+    color: white;
+    border: rgb(34, 0, 255);
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* text-decoration: none; */
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.wellcome_mess_consultant {
+    background-color: #b5e1f4;
+    padding-top: 40px;
+    padding-left: 70px;
+    /* padding-right: 120px; */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    /* padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    margin-top: 20px; */
+
+}
+
+.img1_consult{
+
+    float: right;
+    width: 300px;
+    padding-right: 100px;
+    
+}
+
+.wellcome_mess{
+    font-size: 3rem;
+    margin-bottom: 20px; 
+    color: blue;
+    padding-top: 30px;
+}
+
+.para1_well{
+    font-size: 1.5rem;
+    color: black;
+    line-height: 35px;
+
+}
+
+.activity1{
+    margin-top: 20px;
+    padding-left: 70px;
+}
+
+.consult {
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.first_consult_img{
+
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+
+.second_consult_img{
+
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 70px;
+
+}
+
+.first_consult_content{
+
+    margin-top: 20px;
+    padding-left: 70px;
+
+}
+
+.second_consult_content{
+
+    margin-top: 20px;
+    padding-left: 70px;
+
+}
+
+.para1{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.h1_consult {
+    font-size: 2rem;
+}
+
+.first_consult{
+    margin-bottom: 20px;
+}
+
+.second_consult {
+    margin-bottom: 20px;
+}
+
+.google_map {
+
+    margin-top: 20px;
+    padding-left: 70px;
+    margin-bottom: 20px;
+
+}
+
+.consult_btns {
+    display: flex;
+    margin-top: 20px;
+}
+
+.doctor_map{
+    color: blue;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.bottom-container {
+    background-color: #b5e1f4;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+.footer-link{
+    margin: 20px;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.last_para{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 2rem;
+}

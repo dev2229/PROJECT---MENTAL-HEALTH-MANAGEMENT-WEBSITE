@@ -1,0 +1,320 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Style for the entire navigation bar */
+.navbar {
+    background-color: #b5e1f4;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style for the logo and website name */
+.logo_name{
+color: blue;
+font-size: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 2rem;
+}
+
+.learn_more {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight : bold;
+    margin: 0 20px 0;
+    padding: 0 20px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(69, 101, 216);
+}
+
+/* Style for the buttons */
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(65, 65, 237);
+    color: white;
+    border: rgb(34, 0, 255);
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* text-decoration: none; */
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.learn_more:hover{
+color: black;
+}
+
+/* home page btn */
+
+.sec_btn {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.consult_btn {
+
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.chat-bot{
+    margin-top: 20px;
+}
+
+.activity_btn {
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+
+
+/* first div */
+
+.first_div {
+    margin-bottom: 50px;
+}
+
+.second_div{
+    margin-bottom: 50px;
+}
+
+.welcome_head {
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 70px;
+    color: rgb(63, 63, 222);
+    
+}
+
+.wel_users{
+    font-size: 3rem;
+}
+
+.first_content{
+    
+        padding-top: 30px;
+        padding-left: 70px;
+        border-right-width: 20px;
+        
+    
+}
+
+.mhm {
+    color: blue;
+    padding-bottom: 10px;
+    padding-top: 55px;
+    font-size: 4rem;
+}
+
+.para1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.para2 {
+        font-size: 2rem;
+        padding-left: 70px;
+        padding-top: 20px;
+    
+}
+
+.para3 {
+    padding-right: 20px;
+    font-size: 2rem;
+    padding-top: 140px;
+}
+
+.para4 {
+    margin-bottom: 45px;
+    font-size: 2rem;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.para5{
+    padding-right: 20px;
+    font-size: 2rem;
+    padding-top: 140px;
+}
+
+.image1 {
+    float: right;
+    
+}
+
+.image2{
+    float: right;
+    width: 500px;
+    padding-right: 60px;
+}
+
+.image3{
+    float: left;
+    width: 450px;
+    height: 400px;
+    padding: 0 30px;
+    margin-right: 120px;
+}
+
+.image4 {
+    float: right;
+    width: 300px;
+    height: 270px;
+    padding-right: 70px;
+}
+
+.image5{
+    float: right;
+    width: 350px;
+    height: 220px;
+    padding-right: 110px;
+
+}
+
+
+.comm {
+        font-size: 1.5rem;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-left: 70px;
+        color: rgb(63, 63, 222);
+}
+
+.two_feautres{
+    font-size: 1.5rem;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-left: 70px;
+        color: rgb(63, 63, 222);
+}
+
+.bottom-container {
+    background-color: #b5e1f4;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+.footer-link{
+    margin: 20px;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.last_para{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.activity_anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.consultant_anchor{
+
+    text-decoration:none;
+    color:white;
+
+}
+
+.best_chat{
+    text-decoration:none;
+    color:white;
+}
+
+.activity_anchor:hover{
+    color: black;
+}
+
+.consultant_anchor:hover{
+    color: black;
+}
+
+.best_chat:hover{
+    color: black;
+}
+
+.mhm_anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.mhm_anchor:hover{
+    color: black;
+}
+
+.login_btn{
+    text-decoration: none;
+    color: white;
+}
+
+.login_btn:hover{
+    color: black;
+}
+
+.sign_btn{
+    text-decoration: none;
+    color: white;
+
+}
+
+.sign_btn:hover{
+    color: black;
+}
+

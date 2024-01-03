@@ -1,0 +1,148 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+/* 
+h1 {
+    color: blue;
+} */
+
+.btn {
+    background-color: rgb(65, 65, 237);
+    color: white;
+    border: rgb(34, 0, 255);
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* text-decoration: none; */
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.wellcome_mess_consultant {
+    background-color: #b5e1f4;
+    padding-top: 40px;
+    padding-left: 70px;
+    /* padding-right: 120px; */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    /* padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    margin-top: 20px; */
+
+}
+
+.img1_consult{
+
+    float: right;
+    width: 300px;
+    padding-right: 100px;
+    
+}
+
+.wellcome_mess{
+    font-size: 3rem;
+    margin-bottom: 20px; 
+    color: blue;
+    padding-top: 30px;
+}
+
+.para1_well{
+    font-size: 1.5rem;
+    color: black;
+    line-height: 35px;
+
+}
+
+.sec1_info {
+    margin-bottom: 20px;
+}
+
+.why_mhm {
+    margin-top: 20PX;
+    padding-left: 70PX;
+    margin-bottom: 20px;
+}
+
+.what_mhm {
+
+    margin-top: 20PX;
+    padding-left: 70PX;
+    margin-bottom: 20px;
+
+}
+
+.strat{
+    margin-top: 20PX;
+    padding-left: 70PX;
+    margin-bottom: 20px;
+}
+
+.why_mhm_head{
+    color: blue;
+    font-size: 2rem;
+}
+
+.what_mhm_head {
+    color: blue;
+    font-size: 2rem;
+
+
+}
+
+.strath{
+    color: blue;
+    font-size: 2rem;
+}
+
+.para1_whymhm {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.para2_mhm{
+
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.para3_strat{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.bottom-container {
+    background-color: #b5e1f4;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+.footer-link{
+    margin: 20px;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.last_para{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 2rem;
+}
